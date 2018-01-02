@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentDbRepository", "DocumentDbRepository\DocumentDbRepository.csproj", "{8F95FE79-B39B-425B-9A7B-0B52BBC5D6C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentDbRepository.IntegrationTest", "DocumentDbRepository.IntegrationTest\DocumentDbRepository.IntegrationTest.csproj", "{57BC9AB1-D004-4B96-B706-A1F86CE02B71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A98241CC-5D28-422E-ABC3-B16B4077E251}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F95FE79-B39B-425B-9A7B-0B52BBC5D6C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F95FE79-B39B-425B-9A7B-0B52BBC5D6C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F95FE79-B39B-425B-9A7B-0B52BBC5D6C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F95FE79-B39B-425B-9A7B-0B52BBC5D6C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57BC9AB1-D004-4B96-B706-A1F86CE02B71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57BC9AB1-D004-4B96-B706-A1F86CE02B71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57BC9AB1-D004-4B96-B706-A1F86CE02B71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57BC9AB1-D004-4B96-B706-A1F86CE02B71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0190E8A4-42CA-46A9-AF3D-19348352E40E}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://guldenophthalmics.visualstudio.com/
+		SccProjectUniqueName0 = DocumentDbRepository\\DocumentDbRepository.csproj
+		SccProjectName0 = DocumentDbRepository
+		SccLocalPath0 = DocumentDbRepository
+		SccProjectUniqueName1 = DocumentDbRepository.IntegrationTest\\DocumentDbRepository.IntegrationTest.csproj
+		SccProjectName1 = DocumentDbRepository.IntegrationTest
+		SccLocalPath1 = DocumentDbRepository.IntegrationTest
+		SccLocalPath2 = .
+	EndGlobalSection
+EndGlobal
